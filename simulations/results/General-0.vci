@@ -1,0 +1,204 @@
+file 5787614 1530705195                                         
+version 2
+run General-0-20180704-16:52:51-29235
+attr configname General
+attr datetime 20180704-16:52:51
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network ""
+attr processid 29235
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+vector 146  WirelessNet.ap3.wlan[0].mac.ctn[0]  state:vector  ETV
+attr interpolationmode  none
+attr source  stateChanged
+attr title  "contention state, vector"
+vector 173  WirelessNet.ap5.wlan[0].mac.ctn[0]  state:vector  ETV
+attr interpolationmode  none
+attr source  stateChanged
+attr title  "contention state, vector"
+vector 200  WirelessNet.ap.wlan[0].mac.ctn[0]  state:vector  ETV
+attr interpolationmode  none
+attr source  stateChanged
+attr title  "contention state, vector"
+vector 244  WirelessNet.user.wlan[0].mac.ctn[0]  state:vector  ETV
+attr interpolationmode  none
+attr source  stateChanged
+attr title  "contention state, vector"
+vector 142  WirelessNet.ap3.wlan[0].radio  radioMode:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioModeChanged
+attr title  "Radio mode, vector"
+vector 145  WirelessNet.ap3.wlan[0].radio  radioChannel:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioChannelChanged
+attr title  "Radio channel, vector"
+vector 169  WirelessNet.ap5.wlan[0].radio  radioMode:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioModeChanged
+attr title  "Radio mode, vector"
+vector 172  WirelessNet.ap5.wlan[0].radio  radioChannel:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioChannelChanged
+attr title  "Radio channel, vector"
+vector 196  WirelessNet.ap.wlan[0].radio  radioMode:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioModeChanged
+attr title  "Radio mode, vector"
+vector 199  WirelessNet.ap.wlan[0].radio  radioChannel:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioChannelChanged
+attr title  "Radio channel, vector"
+vector 240  WirelessNet.user.wlan[0].radio  radioMode:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioModeChanged
+attr title  "Radio mode, vector"
+vector 243  WirelessNet.user.wlan[0].radio  radioChannel:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioChannelChanged
+attr title  "Radio channel, vector"
+vector 143  WirelessNet.ap3.wlan[0].radio  receptionState:vector  ETV
+attr interpolationmode  sample-hold
+attr source  receptionStateChanged
+attr title  "Radio reception state, vector"
+vector 170  WirelessNet.ap5.wlan[0].radio  receptionState:vector  ETV
+attr interpolationmode  sample-hold
+attr source  receptionStateChanged
+attr title  "Radio reception state, vector"
+vector 197  WirelessNet.ap.wlan[0].radio  receptionState:vector  ETV
+attr interpolationmode  sample-hold
+attr source  receptionStateChanged
+attr title  "Radio reception state, vector"
+vector 241  WirelessNet.user.wlan[0].radio  receptionState:vector  ETV
+attr interpolationmode  sample-hold
+attr source  receptionStateChanged
+attr title  "Radio reception state, vector"
+vector 194  WirelessNet.ap.wlan[0].mac  rcvdPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, vector(packetBytes)"
+vector 193  WirelessNet.ap.wlan[0].mac  sentDownPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets sent to lower layer, vector(packetBytes)"
+vector 198  WirelessNet.ap.wlan[0].radio  transmissionState:vector  ETV
+attr interpolationmode  sample-hold
+attr source  transmissionStateChanged
+attr title  "Radio transmission state, vector"
+vector 239  WirelessNet.user.wlan[0].mac  rcvdPkFromLL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetReceivedFromLower
+attr title  "packets received from lower layer, vector(packetBytes)"
+vector 236  WirelessNet.user.wlan[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 141  WirelessNet.ap3.wlan[0].mac  rcvdPkFromLL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetReceivedFromLower
+attr title  "packets received from lower layer, vector(packetBytes)"
+vector 138  WirelessNet.ap3.wlan[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 168  WirelessNet.ap5.wlan[0].mac  rcvdPkFromLL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetReceivedFromLower
+attr title  "packets received from lower layer, vector(packetBytes)"
+vector 165  WirelessNet.ap5.wlan[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 140  WirelessNet.ap3.wlan[0].mac  rcvdPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, vector(packetBytes)"
+vector 139  WirelessNet.ap3.wlan[0].mac  sentDownPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets sent to lower layer, vector(packetBytes)"
+vector 144  WirelessNet.ap3.wlan[0].radio  transmissionState:vector  ETV
+attr interpolationmode  sample-hold
+attr source  transmissionStateChanged
+attr title  "Radio transmission state, vector"
+vector 195  WirelessNet.ap.wlan[0].mac  rcvdPkFromLL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetReceivedFromLower
+attr title  "packets received from lower layer, vector(packetBytes)"
+vector 192  WirelessNet.ap.wlan[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 167  WirelessNet.ap5.wlan[0].mac  rcvdPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, vector(packetBytes)"
+vector 166  WirelessNet.ap5.wlan[0].mac  sentDownPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets sent to lower layer, vector(packetBytes)"
+vector 171  WirelessNet.ap5.wlan[0].radio  transmissionState:vector  ETV
+attr interpolationmode  sample-hold
+attr source  transmissionStateChanged
+attr title  "Radio transmission state, vector"
+vector 233  WirelessNet.user.wlan[0].agent  sentRequest:vector  ETV
+attr title  "sent requests, vector"
+vector 238  WirelessNet.user.wlan[0].mac  rcvdPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, vector(packetBytes)"
+vector 237  WirelessNet.user.wlan[0].mac  sentDownPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets sent to lower layer, vector(packetBytes)"
+vector 242  WirelessNet.user.wlan[0].radio  transmissionState:vector  ETV
+attr interpolationmode  sample-hold
+attr source  transmissionStateChanged
+attr title  "Radio transmission state, vector"
+vector 234  WirelessNet.user.wlan[0].agent  acceptConfirm:vector  ETV
+attr title  "accepted confirms, vector"
+138	7406 89840 38 97343 0.005718691191 153.889224726055 3079 40 48 147784 7093312
+139	97246 44932 47 97310 0.029753460525 153.829753460525 1540 48 78 73950 3551940
+140	142178 44932 45 97308 0.029753460525 153.829753460525 1540 48 78 73950 3551940
+141	187110 90282 38 97343 0.005718691191 153.889224726055 3096 14 78 148300 7116720
+142	277392 86804 0 97317 0 153.829799460525 3082 0 3 7702 20024
+143	364196 261194 0 97356 0 153.905672691191 9274 0 3 13928 32510
+144	625390 173568 48 97317 0.029753460525 153.829799460525 6160 0 2 6160 9240
+145	798958 10 0 0 0 0 1 0 0 0 0
+146	798968 782660 0 97356 0 153.905672691191 27786 0 3 24658 67798
+165	1581628 89917 41 97325 0.005719115496 153.829800886405 3082 34 48 147896 7097560
+166	1671545 45090 68 97331 0.089177300175 153.889177300175 1546 14 78 74114 3557756
+167	1716635 45012 66 97329 0.089177300175 153.889177300175 1543 34 78 74072 3557168
+168	1761647 90124 41 97325 0.005719115496 153.829800886405 3090 14 78 148136 7110904
+169	1851771 87108 0 97338 0 153.889223300175 3094 0 3 7732 20102
+170	1938879 261193 0 97357 0 153.905673115496 9274 0 3 13910 32456
+171	2200072 174176 69 97338 0.089177300175 153.889223300175 6184 0 2 6184 9276
+172	2374248 10 0 0 0 0 1 0 0 0 0
+173	2374258 782818 0 97357 0 153.905673115496 27792 0 3 24730 67994
+192	3157076 89841 59 97346 0.029800854144 153.889225118099 3079 40 48 147784 7093312
+193	3246917 44961 26 97352 0.005671297572 153.905671297572 1541 48 78 73998 3554244
+194	3291878 44961 24 97350 0.005671297572 153.905671297572 1541 48 78 73998 3554244
+195	3336839 90281 59 97346 0.029800854144 153.889225118099 3096 14 78 148300 7116720
+196	3427120 86860 0 97359 0 153.905717297572 3084 0 3 7707 20037
+197	3513980 261219 0 97359 0 153.905717297572 9275 0 3 13926 32502
+198	3775199 173680 27 97359 0.005671297572 153.905717297572 6164 0 2 6164 9246
+199	3948879 10 0 0 0 0 1 0 0 0 0
+200	3948889 782874 0 97359 0 153.905717297572 27794 0 3 24686 67862
+233	4731763 75 127 639 0.131276162993 0.533167850489 3 1 4 7 21
+234	4731838 75 517 713 0.531276162993 0.534509694237 3 1 4 7 21
+236	4731913 134876 35 97340 0.005718235747 153.889224222049 4623 34 78 221972 10661048
+237	4866789 260 197 718 0.231276162993 0.534519694237 10 14 44 236 7024
+238	4867049 104 195 642 0.231276162993 0.533167850489 4 34 44 152 5848
+239	4867153 134954 35 97340 0.005718235747 153.889224222049 4626 14 78 222014 10661636
+240	5002107 520 0 727 0 0.534823694237 22 0 3 52 134
+241	5002627 261194 0 97355 0 153.905672235747 9274 0 3 18518 46280
+242	5263821 1000 198 727 0.231276162993 0.534823694237 40 0 2 40 60
+243	5264821 85 0 643 0 0.533167850489 4 0 0 0 0
+244	5264906 522708 0 97355 0 153.905672235747 18562 0 3 94 250

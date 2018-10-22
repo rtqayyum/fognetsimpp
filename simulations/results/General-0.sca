@@ -1,0 +1,4022 @@
+version 2
+run General-0-20180704-16:52:51-29235
+attr configname General
+attr datetime 20180704-16:52:51
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network ""
+attr processid 29235
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+scalar WirelessNet.ComputeBroker1.networkLayer.arp 	failedARPResolution:count 	0
+attr title  "ARP failed resolutions, count"
+scalar WirelessNet.ComputeBroker1.networkLayer.arp 	completedARPResolution:count 	0
+attr title  "ARP completed resolutions, count"
+scalar WirelessNet.ComputeBroker1.networkLayer.arp 	initiatedARPResolution:count 	0
+attr title  "ARP initiated resolutions, count"
+scalar WirelessNet.ComputeBroker1.networkLayer.arp 	sentReply:count 	0
+attr title  "ARP replies sent, count"
+scalar WirelessNet.ComputeBroker1.networkLayer.arp 	sentReq:count 	0
+attr title  "ARP request sent, count"
+scalar WirelessNet.ComputeBroker1.lo0.lo 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar WirelessNet.ComputeBroker1.lo0.lo 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker1.lo0.lo 	rcvdPkFromHL:count 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar WirelessNet.ComputeBroker1.lo0.lo 	rcvdPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker1.lo0.lo 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar WirelessNet.ComputeBroker1.lo0.lo 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker1.eth[0].mac 	"simulated time" 	153.90571729757
+scalar WirelessNet.ComputeBroker1.eth[0].mac 	full-duplex 	1
+scalar WirelessNet.ComputeBroker1.eth[0].mac 	"frames/sec sent" 	0
+scalar WirelessNet.ComputeBroker1.eth[0].mac 	"frames/sec rcvd" 	0
+scalar WirelessNet.ComputeBroker1.eth[0].mac 	"bits/sec sent" 	0
+scalar WirelessNet.ComputeBroker1.eth[0].mac 	"bits/sec rcvd" 	0
+scalar WirelessNet.ComputeBroker1.eth[0].mac 	"rx channel idle (%)" 	100
+scalar WirelessNet.ComputeBroker1.eth[0].mac 	"rx channel utilization (%)" 	0
+scalar WirelessNet.ComputeBroker1.eth[0].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar WirelessNet.ComputeBroker1.eth[0].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker1.eth[0].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar WirelessNet.ComputeBroker1.eth[0].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker1.eth[0].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar WirelessNet.ComputeBroker1.eth[0].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker1.eth[0].mac 	rxPkFromHL:count 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar WirelessNet.ComputeBroker1.eth[0].mac 	rxPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker1.eth[0].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar WirelessNet.ComputeBroker1.eth[0].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar WirelessNet.ComputeBroker1.eth[0].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar WirelessNet.ComputeBroker1.eth[0].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar WirelessNet.ComputeBroker1.eth[0].mac 	rxPkOk:count 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar WirelessNet.ComputeBroker1.eth[0].mac 	rxPkOk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker1.eth[0].mac 	txPk:count 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar WirelessNet.ComputeBroker1.eth[0].mac 	txPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker1.eth[0].mac 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar WirelessNet.ComputeBroker1.eth[0].mac 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker1.eth[0].encap 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar WirelessNet.ComputeBroker1.eth[0].encap 	pauseSent:sum 	0
+attr title  "pause sent, sum"
+scalar WirelessNet.ComputeBroker1.eth[0].encap 	decapPk:count 	0
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar WirelessNet.ComputeBroker1.eth[0].encap 	decapPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker1.eth[0].encap 	encapPk:count 	0
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar WirelessNet.ComputeBroker1.eth[0].encap 	encapPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker2.networkLayer.arp 	failedARPResolution:count 	0
+attr title  "ARP failed resolutions, count"
+scalar WirelessNet.ComputeBroker2.networkLayer.arp 	completedARPResolution:count 	0
+attr title  "ARP completed resolutions, count"
+scalar WirelessNet.ComputeBroker2.networkLayer.arp 	initiatedARPResolution:count 	0
+attr title  "ARP initiated resolutions, count"
+scalar WirelessNet.ComputeBroker2.networkLayer.arp 	sentReply:count 	0
+attr title  "ARP replies sent, count"
+scalar WirelessNet.ComputeBroker2.networkLayer.arp 	sentReq:count 	0
+attr title  "ARP request sent, count"
+scalar WirelessNet.ComputeBroker2.lo0.lo 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar WirelessNet.ComputeBroker2.lo0.lo 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker2.lo0.lo 	rcvdPkFromHL:count 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar WirelessNet.ComputeBroker2.lo0.lo 	rcvdPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker2.lo0.lo 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar WirelessNet.ComputeBroker2.lo0.lo 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker2.eth[0].mac 	"simulated time" 	153.90571729757
+scalar WirelessNet.ComputeBroker2.eth[0].mac 	full-duplex 	1
+scalar WirelessNet.ComputeBroker2.eth[0].mac 	"frames/sec sent" 	0
+scalar WirelessNet.ComputeBroker2.eth[0].mac 	"frames/sec rcvd" 	0
+scalar WirelessNet.ComputeBroker2.eth[0].mac 	"bits/sec sent" 	0
+scalar WirelessNet.ComputeBroker2.eth[0].mac 	"bits/sec rcvd" 	0
+scalar WirelessNet.ComputeBroker2.eth[0].mac 	"rx channel idle (%)" 	100
+scalar WirelessNet.ComputeBroker2.eth[0].mac 	"rx channel utilization (%)" 	0
+scalar WirelessNet.ComputeBroker2.eth[0].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar WirelessNet.ComputeBroker2.eth[0].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker2.eth[0].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar WirelessNet.ComputeBroker2.eth[0].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker2.eth[0].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar WirelessNet.ComputeBroker2.eth[0].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker2.eth[0].mac 	rxPkFromHL:count 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar WirelessNet.ComputeBroker2.eth[0].mac 	rxPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker2.eth[0].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar WirelessNet.ComputeBroker2.eth[0].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar WirelessNet.ComputeBroker2.eth[0].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar WirelessNet.ComputeBroker2.eth[0].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar WirelessNet.ComputeBroker2.eth[0].mac 	rxPkOk:count 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar WirelessNet.ComputeBroker2.eth[0].mac 	rxPkOk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker2.eth[0].mac 	txPk:count 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar WirelessNet.ComputeBroker2.eth[0].mac 	txPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker2.eth[0].mac 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar WirelessNet.ComputeBroker2.eth[0].mac 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker2.eth[0].encap 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar WirelessNet.ComputeBroker2.eth[0].encap 	pauseSent:sum 	0
+attr title  "pause sent, sum"
+scalar WirelessNet.ComputeBroker2.eth[0].encap 	decapPk:count 	0
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar WirelessNet.ComputeBroker2.eth[0].encap 	decapPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker2.eth[0].encap 	encapPk:count 	0
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar WirelessNet.ComputeBroker2.eth[0].encap 	encapPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker3.networkLayer.arp 	failedARPResolution:count 	0
+attr title  "ARP failed resolutions, count"
+scalar WirelessNet.ComputeBroker3.networkLayer.arp 	completedARPResolution:count 	0
+attr title  "ARP completed resolutions, count"
+scalar WirelessNet.ComputeBroker3.networkLayer.arp 	initiatedARPResolution:count 	0
+attr title  "ARP initiated resolutions, count"
+scalar WirelessNet.ComputeBroker3.networkLayer.arp 	sentReply:count 	0
+attr title  "ARP replies sent, count"
+scalar WirelessNet.ComputeBroker3.networkLayer.arp 	sentReq:count 	0
+attr title  "ARP request sent, count"
+scalar WirelessNet.ComputeBroker3.lo0.lo 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar WirelessNet.ComputeBroker3.lo0.lo 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker3.lo0.lo 	rcvdPkFromHL:count 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar WirelessNet.ComputeBroker3.lo0.lo 	rcvdPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker3.lo0.lo 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar WirelessNet.ComputeBroker3.lo0.lo 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker3.eth[0].mac 	"simulated time" 	153.90571729757
+scalar WirelessNet.ComputeBroker3.eth[0].mac 	full-duplex 	1
+scalar WirelessNet.ComputeBroker3.eth[0].mac 	"frames/sec sent" 	0
+scalar WirelessNet.ComputeBroker3.eth[0].mac 	"frames/sec rcvd" 	0
+scalar WirelessNet.ComputeBroker3.eth[0].mac 	"bits/sec sent" 	0
+scalar WirelessNet.ComputeBroker3.eth[0].mac 	"bits/sec rcvd" 	0
+scalar WirelessNet.ComputeBroker3.eth[0].mac 	"rx channel idle (%)" 	100
+scalar WirelessNet.ComputeBroker3.eth[0].mac 	"rx channel utilization (%)" 	0
+scalar WirelessNet.ComputeBroker3.eth[0].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar WirelessNet.ComputeBroker3.eth[0].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker3.eth[0].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar WirelessNet.ComputeBroker3.eth[0].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker3.eth[0].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar WirelessNet.ComputeBroker3.eth[0].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker3.eth[0].mac 	rxPkFromHL:count 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar WirelessNet.ComputeBroker3.eth[0].mac 	rxPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker3.eth[0].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar WirelessNet.ComputeBroker3.eth[0].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar WirelessNet.ComputeBroker3.eth[0].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar WirelessNet.ComputeBroker3.eth[0].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar WirelessNet.ComputeBroker3.eth[0].mac 	rxPkOk:count 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar WirelessNet.ComputeBroker3.eth[0].mac 	rxPkOk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker3.eth[0].mac 	txPk:count 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar WirelessNet.ComputeBroker3.eth[0].mac 	txPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker3.eth[0].mac 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar WirelessNet.ComputeBroker3.eth[0].mac 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker3.eth[0].encap 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar WirelessNet.ComputeBroker3.eth[0].encap 	pauseSent:sum 	0
+attr title  "pause sent, sum"
+scalar WirelessNet.ComputeBroker3.eth[0].encap 	decapPk:count 	0
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar WirelessNet.ComputeBroker3.eth[0].encap 	decapPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker3.eth[0].encap 	encapPk:count 	0
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar WirelessNet.ComputeBroker3.eth[0].encap 	encapPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker4.networkLayer.arp 	failedARPResolution:count 	0
+attr title  "ARP failed resolutions, count"
+scalar WirelessNet.ComputeBroker4.networkLayer.arp 	completedARPResolution:count 	0
+attr title  "ARP completed resolutions, count"
+scalar WirelessNet.ComputeBroker4.networkLayer.arp 	initiatedARPResolution:count 	0
+attr title  "ARP initiated resolutions, count"
+scalar WirelessNet.ComputeBroker4.networkLayer.arp 	sentReply:count 	0
+attr title  "ARP replies sent, count"
+scalar WirelessNet.ComputeBroker4.networkLayer.arp 	sentReq:count 	0
+attr title  "ARP request sent, count"
+scalar WirelessNet.ComputeBroker4.lo0.lo 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar WirelessNet.ComputeBroker4.lo0.lo 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker4.lo0.lo 	rcvdPkFromHL:count 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar WirelessNet.ComputeBroker4.lo0.lo 	rcvdPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker4.lo0.lo 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar WirelessNet.ComputeBroker4.lo0.lo 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker4.eth[0].mac 	"simulated time" 	153.90571729757
+scalar WirelessNet.ComputeBroker4.eth[0].mac 	full-duplex 	1
+scalar WirelessNet.ComputeBroker4.eth[0].mac 	"frames/sec sent" 	0
+scalar WirelessNet.ComputeBroker4.eth[0].mac 	"frames/sec rcvd" 	0
+scalar WirelessNet.ComputeBroker4.eth[0].mac 	"bits/sec sent" 	0
+scalar WirelessNet.ComputeBroker4.eth[0].mac 	"bits/sec rcvd" 	0
+scalar WirelessNet.ComputeBroker4.eth[0].mac 	"rx channel idle (%)" 	100
+scalar WirelessNet.ComputeBroker4.eth[0].mac 	"rx channel utilization (%)" 	0
+scalar WirelessNet.ComputeBroker4.eth[0].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar WirelessNet.ComputeBroker4.eth[0].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker4.eth[0].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar WirelessNet.ComputeBroker4.eth[0].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker4.eth[0].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar WirelessNet.ComputeBroker4.eth[0].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker4.eth[0].mac 	rxPkFromHL:count 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar WirelessNet.ComputeBroker4.eth[0].mac 	rxPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker4.eth[0].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar WirelessNet.ComputeBroker4.eth[0].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar WirelessNet.ComputeBroker4.eth[0].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar WirelessNet.ComputeBroker4.eth[0].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar WirelessNet.ComputeBroker4.eth[0].mac 	rxPkOk:count 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar WirelessNet.ComputeBroker4.eth[0].mac 	rxPkOk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker4.eth[0].mac 	txPk:count 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar WirelessNet.ComputeBroker4.eth[0].mac 	txPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker4.eth[0].mac 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar WirelessNet.ComputeBroker4.eth[0].mac 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker4.eth[0].encap 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar WirelessNet.ComputeBroker4.eth[0].encap 	pauseSent:sum 	0
+attr title  "pause sent, sum"
+scalar WirelessNet.ComputeBroker4.eth[0].encap 	decapPk:count 	0
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar WirelessNet.ComputeBroker4.eth[0].encap 	decapPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker4.eth[0].encap 	encapPk:count 	0
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar WirelessNet.ComputeBroker4.eth[0].encap 	encapPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker5.networkLayer.arp 	failedARPResolution:count 	0
+attr title  "ARP failed resolutions, count"
+scalar WirelessNet.ComputeBroker5.networkLayer.arp 	completedARPResolution:count 	0
+attr title  "ARP completed resolutions, count"
+scalar WirelessNet.ComputeBroker5.networkLayer.arp 	initiatedARPResolution:count 	0
+attr title  "ARP initiated resolutions, count"
+scalar WirelessNet.ComputeBroker5.networkLayer.arp 	sentReply:count 	0
+attr title  "ARP replies sent, count"
+scalar WirelessNet.ComputeBroker5.networkLayer.arp 	sentReq:count 	0
+attr title  "ARP request sent, count"
+scalar WirelessNet.ComputeBroker5.lo0.lo 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar WirelessNet.ComputeBroker5.lo0.lo 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker5.lo0.lo 	rcvdPkFromHL:count 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar WirelessNet.ComputeBroker5.lo0.lo 	rcvdPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker5.lo0.lo 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar WirelessNet.ComputeBroker5.lo0.lo 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker5.eth[0].mac 	"simulated time" 	153.90571729757
+scalar WirelessNet.ComputeBroker5.eth[0].mac 	full-duplex 	1
+scalar WirelessNet.ComputeBroker5.eth[0].mac 	"frames/sec sent" 	0
+scalar WirelessNet.ComputeBroker5.eth[0].mac 	"frames/sec rcvd" 	0
+scalar WirelessNet.ComputeBroker5.eth[0].mac 	"bits/sec sent" 	0
+scalar WirelessNet.ComputeBroker5.eth[0].mac 	"bits/sec rcvd" 	0
+scalar WirelessNet.ComputeBroker5.eth[0].mac 	"rx channel idle (%)" 	100
+scalar WirelessNet.ComputeBroker5.eth[0].mac 	"rx channel utilization (%)" 	0
+scalar WirelessNet.ComputeBroker5.eth[0].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar WirelessNet.ComputeBroker5.eth[0].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker5.eth[0].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar WirelessNet.ComputeBroker5.eth[0].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker5.eth[0].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar WirelessNet.ComputeBroker5.eth[0].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker5.eth[0].mac 	rxPkFromHL:count 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar WirelessNet.ComputeBroker5.eth[0].mac 	rxPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker5.eth[0].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar WirelessNet.ComputeBroker5.eth[0].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar WirelessNet.ComputeBroker5.eth[0].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar WirelessNet.ComputeBroker5.eth[0].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar WirelessNet.ComputeBroker5.eth[0].mac 	rxPkOk:count 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar WirelessNet.ComputeBroker5.eth[0].mac 	rxPkOk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker5.eth[0].mac 	txPk:count 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar WirelessNet.ComputeBroker5.eth[0].mac 	txPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker5.eth[0].mac 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar WirelessNet.ComputeBroker5.eth[0].mac 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker5.eth[0].encap 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar WirelessNet.ComputeBroker5.eth[0].encap 	pauseSent:sum 	0
+attr title  "pause sent, sum"
+scalar WirelessNet.ComputeBroker5.eth[0].encap 	decapPk:count 	0
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar WirelessNet.ComputeBroker5.eth[0].encap 	decapPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar WirelessNet.ComputeBroker5.eth[0].encap 	encapPk:count 	0
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar WirelessNet.ComputeBroker5.eth[0].encap 	encapPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar WirelessNet.BaseBroker.networkLayer.arp 	failedARPResolution:count 	0
+attr title  "ARP failed resolutions, count"
+scalar WirelessNet.BaseBroker.networkLayer.arp 	completedARPResolution:count 	0
+attr title  "ARP completed resolutions, count"
+scalar WirelessNet.BaseBroker.networkLayer.arp 	initiatedARPResolution:count 	0
+attr title  "ARP initiated resolutions, count"
+scalar WirelessNet.BaseBroker.networkLayer.arp 	sentReply:count 	0
+attr title  "ARP replies sent, count"
+scalar WirelessNet.BaseBroker.networkLayer.arp 	sentReq:count 	0
+attr title  "ARP request sent, count"
+scalar WirelessNet.BaseBroker.lo0.lo 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar WirelessNet.BaseBroker.lo0.lo 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar WirelessNet.BaseBroker.lo0.lo 	rcvdPkFromHL:count 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar WirelessNet.BaseBroker.lo0.lo 	rcvdPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar WirelessNet.BaseBroker.lo0.lo 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar WirelessNet.BaseBroker.lo0.lo 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar WirelessNet.BaseBroker.eth[0].mac 	"simulated time" 	153.90571729757
+scalar WirelessNet.BaseBroker.eth[0].mac 	full-duplex 	1
+scalar WirelessNet.BaseBroker.eth[0].mac 	"frames/sec sent" 	0
+scalar WirelessNet.BaseBroker.eth[0].mac 	"frames/sec rcvd" 	0
+scalar WirelessNet.BaseBroker.eth[0].mac 	"bits/sec sent" 	0
+scalar WirelessNet.BaseBroker.eth[0].mac 	"bits/sec rcvd" 	0
+scalar WirelessNet.BaseBroker.eth[0].mac 	"rx channel idle (%)" 	100
+scalar WirelessNet.BaseBroker.eth[0].mac 	"rx channel utilization (%)" 	0
+scalar WirelessNet.BaseBroker.eth[0].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar WirelessNet.BaseBroker.eth[0].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar WirelessNet.BaseBroker.eth[0].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar WirelessNet.BaseBroker.eth[0].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar WirelessNet.BaseBroker.eth[0].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar WirelessNet.BaseBroker.eth[0].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar WirelessNet.BaseBroker.eth[0].mac 	rxPkFromHL:count 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar WirelessNet.BaseBroker.eth[0].mac 	rxPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar WirelessNet.BaseBroker.eth[0].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar WirelessNet.BaseBroker.eth[0].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar WirelessNet.BaseBroker.eth[0].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar WirelessNet.BaseBroker.eth[0].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar WirelessNet.BaseBroker.eth[0].mac 	rxPkOk:count 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar WirelessNet.BaseBroker.eth[0].mac 	rxPkOk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar WirelessNet.BaseBroker.eth[0].mac 	txPk:count 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar WirelessNet.BaseBroker.eth[0].mac 	txPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar WirelessNet.BaseBroker.eth[0].mac 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar WirelessNet.BaseBroker.eth[0].mac 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar WirelessNet.BaseBroker.eth[0].encap 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar WirelessNet.BaseBroker.eth[0].encap 	pauseSent:sum 	0
+attr title  "pause sent, sum"
+scalar WirelessNet.BaseBroker.eth[0].encap 	decapPk:count 	0
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar WirelessNet.BaseBroker.eth[0].encap 	decapPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar WirelessNet.BaseBroker.eth[0].encap 	encapPk:count 	0
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar WirelessNet.BaseBroker.eth[0].encap 	encapPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar WirelessNet.BaseBroker.eth[1].mac 	"simulated time" 	153.90571729757
+scalar WirelessNet.BaseBroker.eth[1].mac 	full-duplex 	1
+scalar WirelessNet.BaseBroker.eth[1].mac 	"frames/sec sent" 	0
+scalar WirelessNet.BaseBroker.eth[1].mac 	"frames/sec rcvd" 	0
+scalar WirelessNet.BaseBroker.eth[1].mac 	"bits/sec sent" 	0
+scalar WirelessNet.BaseBroker.eth[1].mac 	"bits/sec rcvd" 	0
+scalar WirelessNet.BaseBroker.eth[1].mac 	"rx channel idle (%)" 	100
+scalar WirelessNet.BaseBroker.eth[1].mac 	"rx channel utilization (%)" 	0
+scalar WirelessNet.BaseBroker.eth[1].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar WirelessNet.BaseBroker.eth[1].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar WirelessNet.BaseBroker.eth[1].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar WirelessNet.BaseBroker.eth[1].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar WirelessNet.BaseBroker.eth[1].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar WirelessNet.BaseBroker.eth[1].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar WirelessNet.BaseBroker.eth[1].mac 	rxPkFromHL:count 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar WirelessNet.BaseBroker.eth[1].mac 	rxPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar WirelessNet.BaseBroker.eth[1].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar WirelessNet.BaseBroker.eth[1].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar WirelessNet.BaseBroker.eth[1].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar WirelessNet.BaseBroker.eth[1].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar WirelessNet.BaseBroker.eth[1].mac 	rxPkOk:count 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar WirelessNet.BaseBroker.eth[1].mac 	rxPkOk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar WirelessNet.BaseBroker.eth[1].mac 	txPk:count 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar WirelessNet.BaseBroker.eth[1].mac 	txPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar WirelessNet.BaseBroker.eth[1].mac 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar WirelessNet.BaseBroker.eth[1].mac 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar WirelessNet.BaseBroker.eth[1].encap 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar WirelessNet.BaseBroker.eth[1].encap 	pauseSent:sum 	0
+attr title  "pause sent, sum"
+scalar WirelessNet.BaseBroker.eth[1].encap 	decapPk:count 	0
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar WirelessNet.BaseBroker.eth[1].encap 	decapPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar WirelessNet.BaseBroker.eth[1].encap 	encapPk:count 	0
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar WirelessNet.BaseBroker.eth[1].encap 	encapPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar WirelessNet.BaseBroker.eth[2].mac 	"simulated time" 	153.90571729757
+scalar WirelessNet.BaseBroker.eth[2].mac 	full-duplex 	1
+scalar WirelessNet.BaseBroker.eth[2].mac 	"frames/sec sent" 	0
+scalar WirelessNet.BaseBroker.eth[2].mac 	"frames/sec rcvd" 	0
+scalar WirelessNet.BaseBroker.eth[2].mac 	"bits/sec sent" 	0
+scalar WirelessNet.BaseBroker.eth[2].mac 	"bits/sec rcvd" 	0
+scalar WirelessNet.BaseBroker.eth[2].mac 	"rx channel idle (%)" 	100
+scalar WirelessNet.BaseBroker.eth[2].mac 	"rx channel utilization (%)" 	0
+scalar WirelessNet.BaseBroker.eth[2].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar WirelessNet.BaseBroker.eth[2].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar WirelessNet.BaseBroker.eth[2].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar WirelessNet.BaseBroker.eth[2].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar WirelessNet.BaseBroker.eth[2].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar WirelessNet.BaseBroker.eth[2].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar WirelessNet.BaseBroker.eth[2].mac 	rxPkFromHL:count 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar WirelessNet.BaseBroker.eth[2].mac 	rxPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar WirelessNet.BaseBroker.eth[2].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar WirelessNet.BaseBroker.eth[2].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar WirelessNet.BaseBroker.eth[2].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar WirelessNet.BaseBroker.eth[2].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar WirelessNet.BaseBroker.eth[2].mac 	rxPkOk:count 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar WirelessNet.BaseBroker.eth[2].mac 	rxPkOk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar WirelessNet.BaseBroker.eth[2].mac 	txPk:count 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar WirelessNet.BaseBroker.eth[2].mac 	txPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar WirelessNet.BaseBroker.eth[2].mac 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar WirelessNet.BaseBroker.eth[2].mac 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar WirelessNet.BaseBroker.eth[2].encap 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar WirelessNet.BaseBroker.eth[2].encap 	pauseSent:sum 	0
+attr title  "pause sent, sum"
+scalar WirelessNet.BaseBroker.eth[2].encap 	decapPk:count 	0
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar WirelessNet.BaseBroker.eth[2].encap 	decapPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar WirelessNet.BaseBroker.eth[2].encap 	encapPk:count 	0
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar WirelessNet.BaseBroker.eth[2].encap 	encapPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar WirelessNet.BaseBroker.eth[3].mac 	"simulated time" 	153.90571729757
+scalar WirelessNet.BaseBroker.eth[3].mac 	full-duplex 	1
+scalar WirelessNet.BaseBroker.eth[3].mac 	"frames/sec sent" 	0
+scalar WirelessNet.BaseBroker.eth[3].mac 	"frames/sec rcvd" 	0
+scalar WirelessNet.BaseBroker.eth[3].mac 	"bits/sec sent" 	0
+scalar WirelessNet.BaseBroker.eth[3].mac 	"bits/sec rcvd" 	0
+scalar WirelessNet.BaseBroker.eth[3].mac 	"rx channel idle (%)" 	100
+scalar WirelessNet.BaseBroker.eth[3].mac 	"rx channel utilization (%)" 	0
+scalar WirelessNet.BaseBroker.eth[3].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar WirelessNet.BaseBroker.eth[3].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar WirelessNet.BaseBroker.eth[3].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar WirelessNet.BaseBroker.eth[3].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar WirelessNet.BaseBroker.eth[3].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar WirelessNet.BaseBroker.eth[3].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar WirelessNet.BaseBroker.eth[3].mac 	rxPkFromHL:count 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar WirelessNet.BaseBroker.eth[3].mac 	rxPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar WirelessNet.BaseBroker.eth[3].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar WirelessNet.BaseBroker.eth[3].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar WirelessNet.BaseBroker.eth[3].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar WirelessNet.BaseBroker.eth[3].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar WirelessNet.BaseBroker.eth[3].mac 	rxPkOk:count 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar WirelessNet.BaseBroker.eth[3].mac 	rxPkOk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar WirelessNet.BaseBroker.eth[3].mac 	txPk:count 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar WirelessNet.BaseBroker.eth[3].mac 	txPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar WirelessNet.BaseBroker.eth[3].mac 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar WirelessNet.BaseBroker.eth[3].mac 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar WirelessNet.BaseBroker.eth[3].encap 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar WirelessNet.BaseBroker.eth[3].encap 	pauseSent:sum 	0
+attr title  "pause sent, sum"
+scalar WirelessNet.BaseBroker.eth[3].encap 	decapPk:count 	0
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar WirelessNet.BaseBroker.eth[3].encap 	decapPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar WirelessNet.BaseBroker.eth[3].encap 	encapPk:count 	0
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar WirelessNet.BaseBroker.eth[3].encap 	encapPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar WirelessNet.ap3.relayUnit 	"number of received BPDUs from STP module" 	0
+scalar WirelessNet.ap3.relayUnit 	"number of received frames from network (including BPDUs)" 	0
+scalar WirelessNet.ap3.relayUnit 	"number of dropped frames (including BPDUs)" 	0
+scalar WirelessNet.ap3.relayUnit 	"number of delivered BPDUs to the STP module" 	0
+scalar WirelessNet.ap3.relayUnit 	"number of dispatched BPDU frames to the network" 	0
+scalar WirelessNet.ap3.relayUnit 	"number of dispatched non-BDPU frames to the network" 	0
+scalar WirelessNet.ap3.wlan[0].mac.statistics 	numReceivedUnicast 	0
+scalar WirelessNet.ap3.wlan[0].mac.statistics 	numReceivedBroadcast 	3079
+scalar WirelessNet.ap3.wlan[0].mac.statistics 	numReceivedMulticast 	0
+scalar WirelessNet.ap3.wlan[0].mac.statistics 	numReceivedNotForUs 	8
+scalar WirelessNet.ap3.wlan[0].mac.statistics 	numReceivedErroneous 	0
+scalar WirelessNet.ap3.wlan[0].mac 	rcvdPkFromLL:count 	3096
+attr interpolationmode  none
+attr source  packetReceivedFromLower
+attr title  "packets received from lower layer, count"
+scalar WirelessNet.ap3.wlan[0].mac 	rcvdPkFromLL:sum(packetBytes) 	148300
+attr interpolationmode  none
+attr source  packetReceivedFromLower
+attr title  "packets received from lower layer, sum(packetBytes)"
+scalar WirelessNet.ap3.wlan[0].mac 	sentDownPk:count 	1540
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets sent to lower layer, count"
+scalar WirelessNet.ap3.wlan[0].mac 	sentDownPk:sum(packetBytes) 	73950
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets sent to lower layer, sum(packetBytes)"
+scalar WirelessNet.ap3.wlan[0].mac 	rcvdPkFromHL:count 	1540
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar WirelessNet.ap3.wlan[0].mac 	rcvdPkFromHL:sum(packetBytes) 	73950
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar WirelessNet.ap3.wlan[0].mac 	passedUpPk:count 	3079
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar WirelessNet.ap3.wlan[0].mac 	passedUpPk:sum(packetBytes) 	147784
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+statistic WirelessNet.ap3.wlan[0].radio 	radioChannel:histogram
+field count 1
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  sample-hold
+attr source  radioChannelChanged
+attr title  "Radio channel, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	1
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar WirelessNet.ap3.wlan[0].radio 	transmissionState:count 	6160
+attr interpolationmode  sample-hold
+attr source  transmissionStateChanged
+attr title  "Radio transmission state, count"
+scalar WirelessNet.ap3.wlan[0].radio 	receptionState:count 	9274
+attr interpolationmode  sample-hold
+attr source  receptionStateChanged
+attr title  "Radio reception state, count"
+scalar WirelessNet.ap3.wlan[0].radio 	radioMode:count 	3082
+attr interpolationmode  sample-hold
+attr source  radioModeChanged
+attr title  "Radio mode, count"
+statistic WirelessNet.ap3.wlan[0].radio 	symbolErrorRate:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min -nan
+field max -nan
+attr source  symbolErrorRate
+attr title  "Symbol error rate, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+statistic WirelessNet.ap3.wlan[0].radio 	bitErrorRate:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min -nan
+field max -nan
+attr source  bitErrorRate
+attr title  "Bit error rate, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+statistic WirelessNet.ap3.wlan[0].radio 	packetErrorRate:histogram
+field count 3096
+field mean 0
+field stddev 0
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr source  packetErrorRate
+attr title  "Packet error rate, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	3096
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+statistic WirelessNet.ap3.wlan[0].radio 	minSNIR:histogram
+field count 3096
+field mean 1101.293799038
+field stddev 100.08328259382
+field sum 3409605.6018215
+field sqrsum 3785979079.8435
+field min 1070.7537129322
+field max 2803.2803485928
+attr source  minSNIR
+attr title  "Min SNIR, histogram"
+bin	-INF	0
+bin	204.49039510186	0
+bin	319.99217081257	0
+bin	435.49394652328	0
+bin	550.99572223399	0
+bin	666.4974979447	0
+bin	781.99927365541	0
+bin	897.50104936612	0
+bin	1013.0028250768	3086
+bin	1128.5046007875	0
+bin	1244.0063764983	0
+bin	1359.508152209	0
+bin	1475.0099279197	0
+bin	1590.5117036304	0
+bin	1706.0134793411	0
+bin	1821.5152550518	0
+bin	1937.0170307625	0
+bin	2052.5188064732	0
+bin	2168.0205821839	0
+bin	2283.5223578946	0
+bin	2399.0241336054	0
+bin	2514.5259093161	0
+bin	2630.0276850268	0
+bin	2745.5294607375	10
+bin	2861.0312364482	0
+bin	2976.5330121589	0
+bin	3092.0347878696	0
+bin	3207.5365635803	0
+bin	3323.038339291	0
+bin	3438.5401150017	0
+bin	3554.0418907125	0
+bin	3669.5436664232	0
+scalar WirelessNet.ap3.eth[0].mac 	"simulated time" 	153.90571729757
+scalar WirelessNet.ap3.eth[0].mac 	full-duplex 	1
+scalar WirelessNet.ap3.eth[0].mac 	"frames/sec sent" 	0
+scalar WirelessNet.ap3.eth[0].mac 	"frames/sec rcvd" 	0
+scalar WirelessNet.ap3.eth[0].mac 	"bits/sec sent" 	0
+scalar WirelessNet.ap3.eth[0].mac 	"bits/sec rcvd" 	0
+scalar WirelessNet.ap3.eth[0].mac 	"rx channel idle (%)" 	100
+scalar WirelessNet.ap3.eth[0].mac 	"rx channel utilization (%)" 	0
+scalar WirelessNet.ap3.eth[0].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar WirelessNet.ap3.eth[0].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar WirelessNet.ap3.eth[0].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar WirelessNet.ap3.eth[0].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar WirelessNet.ap3.eth[0].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar WirelessNet.ap3.eth[0].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar WirelessNet.ap3.eth[0].mac 	rxPkFromHL:count 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar WirelessNet.ap3.eth[0].mac 	rxPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar WirelessNet.ap3.eth[0].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar WirelessNet.ap3.eth[0].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar WirelessNet.ap3.eth[0].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar WirelessNet.ap3.eth[0].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar WirelessNet.ap3.eth[0].mac 	rxPkOk:count 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar WirelessNet.ap3.eth[0].mac 	rxPkOk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar WirelessNet.ap3.eth[0].mac 	txPk:count 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar WirelessNet.ap3.eth[0].mac 	txPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar WirelessNet.ap3.eth[0].mac 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar WirelessNet.ap3.eth[0].mac 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar WirelessNet.ap3.eth[1].mac 	"simulated time" 	153.90571729757
+scalar WirelessNet.ap3.eth[1].mac 	full-duplex 	1
+scalar WirelessNet.ap3.eth[1].mac 	"frames/sec sent" 	0
+scalar WirelessNet.ap3.eth[1].mac 	"frames/sec rcvd" 	0
+scalar WirelessNet.ap3.eth[1].mac 	"bits/sec sent" 	0
+scalar WirelessNet.ap3.eth[1].mac 	"bits/sec rcvd" 	0
+scalar WirelessNet.ap3.eth[1].mac 	"rx channel idle (%)" 	100
+scalar WirelessNet.ap3.eth[1].mac 	"rx channel utilization (%)" 	0
+scalar WirelessNet.ap3.eth[1].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar WirelessNet.ap3.eth[1].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar WirelessNet.ap3.eth[1].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar WirelessNet.ap3.eth[1].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar WirelessNet.ap3.eth[1].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar WirelessNet.ap3.eth[1].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar WirelessNet.ap3.eth[1].mac 	rxPkFromHL:count 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar WirelessNet.ap3.eth[1].mac 	rxPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar WirelessNet.ap3.eth[1].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar WirelessNet.ap3.eth[1].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar WirelessNet.ap3.eth[1].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar WirelessNet.ap3.eth[1].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar WirelessNet.ap3.eth[1].mac 	rxPkOk:count 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar WirelessNet.ap3.eth[1].mac 	rxPkOk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar WirelessNet.ap3.eth[1].mac 	txPk:count 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar WirelessNet.ap3.eth[1].mac 	txPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar WirelessNet.ap3.eth[1].mac 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar WirelessNet.ap3.eth[1].mac 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar WirelessNet.ap5.relayUnit 	"number of received BPDUs from STP module" 	0
+scalar WirelessNet.ap5.relayUnit 	"number of received frames from network (including BPDUs)" 	0
+scalar WirelessNet.ap5.relayUnit 	"number of dropped frames (including BPDUs)" 	0
+scalar WirelessNet.ap5.relayUnit 	"number of delivered BPDUs to the STP module" 	0
+scalar WirelessNet.ap5.relayUnit 	"number of dispatched BPDU frames to the network" 	0
+scalar WirelessNet.ap5.relayUnit 	"number of dispatched non-BDPU frames to the network" 	0
+scalar WirelessNet.ap5.wlan[0].mac.statistics 	numReceivedUnicast 	3
+scalar WirelessNet.ap5.wlan[0].mac.statistics 	numReceivedBroadcast 	3079
+scalar WirelessNet.ap5.wlan[0].mac.statistics 	numReceivedMulticast 	0
+scalar WirelessNet.ap5.wlan[0].mac.statistics 	numReceivedNotForUs 	2
+scalar WirelessNet.ap5.wlan[0].mac.statistics 	numReceivedErroneous 	0
+scalar WirelessNet.ap5.wlan[0].mac 	rcvdPkFromLL:count 	3090
+attr interpolationmode  none
+attr source  packetReceivedFromLower
+attr title  "packets received from lower layer, count"
+scalar WirelessNet.ap5.wlan[0].mac 	rcvdPkFromLL:sum(packetBytes) 	148136
+attr interpolationmode  none
+attr source  packetReceivedFromLower
+attr title  "packets received from lower layer, sum(packetBytes)"
+scalar WirelessNet.ap5.wlan[0].mac 	sentDownPk:count 	1546
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets sent to lower layer, count"
+scalar WirelessNet.ap5.wlan[0].mac 	sentDownPk:sum(packetBytes) 	74114
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets sent to lower layer, sum(packetBytes)"
+scalar WirelessNet.ap5.wlan[0].mac 	rcvdPkFromHL:count 	1543
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar WirelessNet.ap5.wlan[0].mac 	rcvdPkFromHL:sum(packetBytes) 	74072
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar WirelessNet.ap5.wlan[0].mac 	passedUpPk:count 	3082
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar WirelessNet.ap5.wlan[0].mac 	passedUpPk:sum(packetBytes) 	147896
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+statistic WirelessNet.ap5.wlan[0].radio 	radioChannel:histogram
+field count 1
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  sample-hold
+attr source  radioChannelChanged
+attr title  "Radio channel, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	1
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar WirelessNet.ap5.wlan[0].radio 	transmissionState:count 	6184
+attr interpolationmode  sample-hold
+attr source  transmissionStateChanged
+attr title  "Radio transmission state, count"
+scalar WirelessNet.ap5.wlan[0].radio 	receptionState:count 	9274
+attr interpolationmode  sample-hold
+attr source  receptionStateChanged
+attr title  "Radio reception state, count"
+scalar WirelessNet.ap5.wlan[0].radio 	radioMode:count 	3094
+attr interpolationmode  sample-hold
+attr source  radioModeChanged
+attr title  "Radio mode, count"
+statistic WirelessNet.ap5.wlan[0].radio 	symbolErrorRate:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min -nan
+field max -nan
+attr source  symbolErrorRate
+attr title  "Symbol error rate, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+statistic WirelessNet.ap5.wlan[0].radio 	bitErrorRate:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min -nan
+field max -nan
+attr source  bitErrorRate
+attr title  "Bit error rate, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+statistic WirelessNet.ap5.wlan[0].radio 	packetErrorRate:histogram
+field count 3090
+field mean 0
+field stddev 0
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr source  packetErrorRate
+attr title  "Packet error rate, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	3090
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+statistic WirelessNet.ap5.wlan[0].radio 	minSNIR:histogram
+field count 3090
+field mean 870.23075910626
+field stddev 227.17702720046
+field sum 2689013.0456383
+field sqrsum 2499483305.7656
+field min 658.72487235211
+field max 2561.6024300596
+attr source  minSNIR
+attr title  "Min SNIR, histogram"
+bin	-INF	0
+bin	-292.71390650166	0
+bin	-165.85540265449	0
+bin	-38.996898807318	0
+bin	87.861605039851	0
+bin	214.72010888702	0
+bin	341.57861273419	0
+bin	468.43711658136	0
+bin	595.29562042853	1540
+bin	722.1541242757	0
+bin	849.01262812286	0
+bin	975.87113197003	1540
+bin	1102.7296358172	0
+bin	1229.5881396644	0
+bin	1356.4466435115	0
+bin	1483.3051473587	0
+bin	1610.1636512059	0
+bin	1737.022155053	0
+bin	1863.8806589002	0
+bin	1990.7391627474	0
+bin	2117.5976665946	0
+bin	2244.4561704417	0
+bin	2371.3146742889	0
+bin	2498.1731781361	10
+bin	2625.0316819832	0
+bin	2751.8901858304	0
+bin	2878.7486896776	0
+bin	3005.6071935247	0
+bin	3132.4656973719	0
+bin	3259.3242012191	0
+bin	3386.1827050662	0
+bin	3513.0412089134	0
+scalar WirelessNet.ap5.eth[0].mac 	"simulated time" 	153.90571729757
+scalar WirelessNet.ap5.eth[0].mac 	full-duplex 	1
+scalar WirelessNet.ap5.eth[0].mac 	"frames/sec sent" 	0
+scalar WirelessNet.ap5.eth[0].mac 	"frames/sec rcvd" 	0
+scalar WirelessNet.ap5.eth[0].mac 	"bits/sec sent" 	0
+scalar WirelessNet.ap5.eth[0].mac 	"bits/sec rcvd" 	0
+scalar WirelessNet.ap5.eth[0].mac 	"rx channel idle (%)" 	100
+scalar WirelessNet.ap5.eth[0].mac 	"rx channel utilization (%)" 	0
+scalar WirelessNet.ap5.eth[0].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar WirelessNet.ap5.eth[0].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar WirelessNet.ap5.eth[0].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar WirelessNet.ap5.eth[0].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar WirelessNet.ap5.eth[0].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar WirelessNet.ap5.eth[0].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar WirelessNet.ap5.eth[0].mac 	rxPkFromHL:count 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar WirelessNet.ap5.eth[0].mac 	rxPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar WirelessNet.ap5.eth[0].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar WirelessNet.ap5.eth[0].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar WirelessNet.ap5.eth[0].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar WirelessNet.ap5.eth[0].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar WirelessNet.ap5.eth[0].mac 	rxPkOk:count 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar WirelessNet.ap5.eth[0].mac 	rxPkOk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar WirelessNet.ap5.eth[0].mac 	txPk:count 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar WirelessNet.ap5.eth[0].mac 	txPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar WirelessNet.ap5.eth[0].mac 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar WirelessNet.ap5.eth[0].mac 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar WirelessNet.ap5.eth[1].mac 	"simulated time" 	153.90571729757
+scalar WirelessNet.ap5.eth[1].mac 	full-duplex 	1
+scalar WirelessNet.ap5.eth[1].mac 	"frames/sec sent" 	0
+scalar WirelessNet.ap5.eth[1].mac 	"frames/sec rcvd" 	0
+scalar WirelessNet.ap5.eth[1].mac 	"bits/sec sent" 	0
+scalar WirelessNet.ap5.eth[1].mac 	"bits/sec rcvd" 	0
+scalar WirelessNet.ap5.eth[1].mac 	"rx channel idle (%)" 	100
+scalar WirelessNet.ap5.eth[1].mac 	"rx channel utilization (%)" 	0
+scalar WirelessNet.ap5.eth[1].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar WirelessNet.ap5.eth[1].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar WirelessNet.ap5.eth[1].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar WirelessNet.ap5.eth[1].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar WirelessNet.ap5.eth[1].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar WirelessNet.ap5.eth[1].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar WirelessNet.ap5.eth[1].mac 	rxPkFromHL:count 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar WirelessNet.ap5.eth[1].mac 	rxPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar WirelessNet.ap5.eth[1].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar WirelessNet.ap5.eth[1].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar WirelessNet.ap5.eth[1].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar WirelessNet.ap5.eth[1].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar WirelessNet.ap5.eth[1].mac 	rxPkOk:count 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar WirelessNet.ap5.eth[1].mac 	rxPkOk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar WirelessNet.ap5.eth[1].mac 	txPk:count 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar WirelessNet.ap5.eth[1].mac 	txPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar WirelessNet.ap5.eth[1].mac 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar WirelessNet.ap5.eth[1].mac 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar WirelessNet.ap.relayUnit 	"number of received BPDUs from STP module" 	0
+scalar WirelessNet.ap.relayUnit 	"number of received frames from network (including BPDUs)" 	0
+scalar WirelessNet.ap.relayUnit 	"number of dropped frames (including BPDUs)" 	0
+scalar WirelessNet.ap.relayUnit 	"number of delivered BPDUs to the STP module" 	0
+scalar WirelessNet.ap.relayUnit 	"number of dispatched BPDU frames to the network" 	0
+scalar WirelessNet.ap.relayUnit 	"number of dispatched non-BDPU frames to the network" 	0
+scalar WirelessNet.ap.wlan[0].mac.statistics 	numReceivedUnicast 	0
+scalar WirelessNet.ap.wlan[0].mac.statistics 	numReceivedBroadcast 	3079
+scalar WirelessNet.ap.wlan[0].mac.statistics 	numReceivedMulticast 	0
+scalar WirelessNet.ap.wlan[0].mac.statistics 	numReceivedNotForUs 	8
+scalar WirelessNet.ap.wlan[0].mac.statistics 	numReceivedErroneous 	0
+scalar WirelessNet.ap.wlan[0].mac 	rcvdPkFromLL:count 	3096
+attr interpolationmode  none
+attr source  packetReceivedFromLower
+attr title  "packets received from lower layer, count"
+scalar WirelessNet.ap.wlan[0].mac 	rcvdPkFromLL:sum(packetBytes) 	148300
+attr interpolationmode  none
+attr source  packetReceivedFromLower
+attr title  "packets received from lower layer, sum(packetBytes)"
+scalar WirelessNet.ap.wlan[0].mac 	sentDownPk:count 	1541
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets sent to lower layer, count"
+scalar WirelessNet.ap.wlan[0].mac 	sentDownPk:sum(packetBytes) 	73998
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets sent to lower layer, sum(packetBytes)"
+scalar WirelessNet.ap.wlan[0].mac 	rcvdPkFromHL:count 	1541
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar WirelessNet.ap.wlan[0].mac 	rcvdPkFromHL:sum(packetBytes) 	73998
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar WirelessNet.ap.wlan[0].mac 	passedUpPk:count 	3079
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar WirelessNet.ap.wlan[0].mac 	passedUpPk:sum(packetBytes) 	147784
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+statistic WirelessNet.ap.wlan[0].radio 	radioChannel:histogram
+field count 1
+field mean 0
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  sample-hold
+attr source  radioChannelChanged
+attr title  "Radio channel, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	1
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar WirelessNet.ap.wlan[0].radio 	transmissionState:count 	6164
+attr interpolationmode  sample-hold
+attr source  transmissionStateChanged
+attr title  "Radio transmission state, count"
+scalar WirelessNet.ap.wlan[0].radio 	receptionState:count 	9275
+attr interpolationmode  sample-hold
+attr source  receptionStateChanged
+attr title  "Radio reception state, count"
+scalar WirelessNet.ap.wlan[0].radio 	radioMode:count 	3084
+attr interpolationmode  sample-hold
+attr source  radioModeChanged
+attr title  "Radio mode, count"
+statistic WirelessNet.ap.wlan[0].radio 	symbolErrorRate:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min -nan
+field max -nan
+attr source  symbolErrorRate
+attr title  "Symbol error rate, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+statistic WirelessNet.ap.wlan[0].radio 	bitErrorRate:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min -nan
+field max -nan
+attr source  bitErrorRate
+attr title  "Bit error rate, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+statistic WirelessNet.ap.wlan[0].radio 	packetErrorRate:histogram
+field count 3096
+field mean 0
+field stddev 0
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr source  packetErrorRate
+attr title  "Packet error rate, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	3096
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+statistic WirelessNet.ap.wlan[0].radio 	minSNIR:histogram
+field count 3096
+field mean 894.47991872627
+field stddev 247.6424994422
+field sum 2769309.8283765
+field sqrsum 2666898499.5194
+field min 658.72487235211
+field max 2473.3617577729
+attr source  minSNIR
+attr title  "Min SNIR, histogram"
+bin	-INF	0
+bin	-248.5935703583	0
+bin	-127.61777799691	0
+bin	-6.6419856355239	0
+bin	114.33380672586	0
+bin	235.30959908725	0
+bin	356.28539144864	0
+bin	477.26118381003	0
+bin	598.23697617142	1546
+bin	719.2127685328	0
+bin	840.18856089419	0
+bin	961.16435325558	0
+bin	1082.140145617	1540
+bin	1203.1159379784	0
+bin	1324.0917303397	0
+bin	1445.0675227011	0
+bin	1566.0433150625	0
+bin	1687.0191074239	0
+bin	1807.9948997853	0
+bin	1928.9706921467	0
+bin	2049.9464845081	0
+bin	2170.9222768695	0
+bin	2291.8980692309	0
+bin	2412.8738615922	10
+bin	2533.8496539536	0
+bin	2654.825446315	0
+bin	2775.8012386764	0
+bin	2896.7770310378	0
+bin	3017.7528233992	0
+bin	3138.7286157606	0
+bin	3259.704408122	0
+bin	3380.6802004833	0
+scalar WirelessNet.ap.eth[0].mac 	"simulated time" 	153.90571729757
+scalar WirelessNet.ap.eth[0].mac 	full-duplex 	1
+scalar WirelessNet.ap.eth[0].mac 	"frames/sec sent" 	0
+scalar WirelessNet.ap.eth[0].mac 	"frames/sec rcvd" 	0
+scalar WirelessNet.ap.eth[0].mac 	"bits/sec sent" 	0
+scalar WirelessNet.ap.eth[0].mac 	"bits/sec rcvd" 	0
+scalar WirelessNet.ap.eth[0].mac 	"rx channel idle (%)" 	100
+scalar WirelessNet.ap.eth[0].mac 	"rx channel utilization (%)" 	0
+scalar WirelessNet.ap.eth[0].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar WirelessNet.ap.eth[0].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar WirelessNet.ap.eth[0].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar WirelessNet.ap.eth[0].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar WirelessNet.ap.eth[0].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar WirelessNet.ap.eth[0].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar WirelessNet.ap.eth[0].mac 	rxPkFromHL:count 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar WirelessNet.ap.eth[0].mac 	rxPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar WirelessNet.ap.eth[0].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar WirelessNet.ap.eth[0].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar WirelessNet.ap.eth[0].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar WirelessNet.ap.eth[0].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar WirelessNet.ap.eth[0].mac 	rxPkOk:count 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar WirelessNet.ap.eth[0].mac 	rxPkOk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar WirelessNet.ap.eth[0].mac 	txPk:count 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar WirelessNet.ap.eth[0].mac 	txPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar WirelessNet.ap.eth[0].mac 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar WirelessNet.ap.eth[0].mac 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar WirelessNet.ap.eth[1].mac 	"simulated time" 	153.90571729757
+scalar WirelessNet.ap.eth[1].mac 	full-duplex 	1
+scalar WirelessNet.ap.eth[1].mac 	"frames/sec sent" 	0
+scalar WirelessNet.ap.eth[1].mac 	"frames/sec rcvd" 	0
+scalar WirelessNet.ap.eth[1].mac 	"bits/sec sent" 	0
+scalar WirelessNet.ap.eth[1].mac 	"bits/sec rcvd" 	0
+scalar WirelessNet.ap.eth[1].mac 	"rx channel idle (%)" 	100
+scalar WirelessNet.ap.eth[1].mac 	"rx channel utilization (%)" 	0
+scalar WirelessNet.ap.eth[1].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar WirelessNet.ap.eth[1].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar WirelessNet.ap.eth[1].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar WirelessNet.ap.eth[1].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar WirelessNet.ap.eth[1].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar WirelessNet.ap.eth[1].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar WirelessNet.ap.eth[1].mac 	rxPkFromHL:count 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar WirelessNet.ap.eth[1].mac 	rxPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar WirelessNet.ap.eth[1].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar WirelessNet.ap.eth[1].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar WirelessNet.ap.eth[1].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar WirelessNet.ap.eth[1].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar WirelessNet.ap.eth[1].mac 	rxPkOk:count 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar WirelessNet.ap.eth[1].mac 	rxPkOk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar WirelessNet.ap.eth[1].mac 	txPk:count 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar WirelessNet.ap.eth[1].mac 	txPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar WirelessNet.ap.eth[1].mac 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar WirelessNet.ap.eth[1].mac 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar WirelessNet.ap.eth[2].mac 	"simulated time" 	153.90571729757
+scalar WirelessNet.ap.eth[2].mac 	full-duplex 	1
+scalar WirelessNet.ap.eth[2].mac 	"frames/sec sent" 	0
+scalar WirelessNet.ap.eth[2].mac 	"frames/sec rcvd" 	0
+scalar WirelessNet.ap.eth[2].mac 	"bits/sec sent" 	0
+scalar WirelessNet.ap.eth[2].mac 	"bits/sec rcvd" 	0
+scalar WirelessNet.ap.eth[2].mac 	"rx channel idle (%)" 	100
+scalar WirelessNet.ap.eth[2].mac 	"rx channel utilization (%)" 	0
+scalar WirelessNet.ap.eth[2].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar WirelessNet.ap.eth[2].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar WirelessNet.ap.eth[2].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar WirelessNet.ap.eth[2].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar WirelessNet.ap.eth[2].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar WirelessNet.ap.eth[2].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar WirelessNet.ap.eth[2].mac 	rxPkFromHL:count 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar WirelessNet.ap.eth[2].mac 	rxPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar WirelessNet.ap.eth[2].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar WirelessNet.ap.eth[2].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar WirelessNet.ap.eth[2].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar WirelessNet.ap.eth[2].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar WirelessNet.ap.eth[2].mac 	rxPkOk:count 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar WirelessNet.ap.eth[2].mac 	rxPkOk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar WirelessNet.ap.eth[2].mac 	txPk:count 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar WirelessNet.ap.eth[2].mac 	txPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar WirelessNet.ap.eth[2].mac 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar WirelessNet.ap.eth[2].mac 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar WirelessNet.user.networkLayer.arp 	failedARPResolution:count 	0
+attr title  "ARP failed resolutions, count"
+scalar WirelessNet.user.networkLayer.arp 	completedARPResolution:count 	0
+attr title  "ARP completed resolutions, count"
+scalar WirelessNet.user.networkLayer.arp 	initiatedARPResolution:count 	0
+attr title  "ARP initiated resolutions, count"
+scalar WirelessNet.user.networkLayer.arp 	sentReply:count 	0
+attr title  "ARP replies sent, count"
+scalar WirelessNet.user.networkLayer.arp 	sentReq:count 	0
+attr title  "ARP request sent, count"
+scalar WirelessNet.user.lo0.lo 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar WirelessNet.user.lo0.lo 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar WirelessNet.user.lo0.lo 	rcvdPkFromHL:count 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar WirelessNet.user.lo0.lo 	rcvdPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar WirelessNet.user.lo0.lo 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar WirelessNet.user.lo0.lo 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar WirelessNet.user.wlan[0].agent 	dropConfirm:count 	0
+attr title  "dropped confirms, count"
+scalar WirelessNet.user.wlan[0].agent 	acceptConfirm:count 	3
+attr title  "accepted confirms, count"
+scalar WirelessNet.user.wlan[0].agent 	sentRequest:count 	3
+attr title  "sent requests, count"
+scalar WirelessNet.user.wlan[0].mac.statistics 	numReceivedUnicast 	6
+scalar WirelessNet.user.wlan[0].mac.statistics 	numReceivedBroadcast 	4617
+scalar WirelessNet.user.wlan[0].mac.statistics 	numReceivedMulticast 	0
+scalar WirelessNet.user.wlan[0].mac.statistics 	numReceivedNotForUs 	0
+scalar WirelessNet.user.wlan[0].mac.statistics 	numReceivedErroneous 	0
+scalar WirelessNet.user.wlan[0].mac 	rcvdPkFromLL:count 	4626
+attr interpolationmode  none
+attr source  packetReceivedFromLower
+attr title  "packets received from lower layer, count"
+scalar WirelessNet.user.wlan[0].mac 	rcvdPkFromLL:sum(packetBytes) 	222014
+attr interpolationmode  none
+attr source  packetReceivedFromLower
+attr title  "packets received from lower layer, sum(packetBytes)"
+scalar WirelessNet.user.wlan[0].mac 	sentDownPk:count 	10
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets sent to lower layer, count"
+scalar WirelessNet.user.wlan[0].mac 	sentDownPk:sum(packetBytes) 	236
+attr interpolationmode  none
+attr source  packetSentToLower
+attr title  "packets sent to lower layer, sum(packetBytes)"
+scalar WirelessNet.user.wlan[0].mac 	rcvdPkFromHL:count 	4
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar WirelessNet.user.wlan[0].mac 	rcvdPkFromHL:sum(packetBytes) 	152
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar WirelessNet.user.wlan[0].mac 	passedUpPk:count 	4623
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar WirelessNet.user.wlan[0].mac 	passedUpPk:sum(packetBytes) 	221972
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+statistic WirelessNet.user.wlan[0].radio 	radioChannel:histogram
+field count 4
+field mean 0
+field stddev 0
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr interpolationmode  sample-hold
+attr source  radioChannelChanged
+attr title  "Radio channel, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	4
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+scalar WirelessNet.user.wlan[0].radio 	transmissionState:count 	40
+attr interpolationmode  sample-hold
+attr source  transmissionStateChanged
+attr title  "Radio transmission state, count"
+scalar WirelessNet.user.wlan[0].radio 	receptionState:count 	9274
+attr interpolationmode  sample-hold
+attr source  receptionStateChanged
+attr title  "Radio reception state, count"
+scalar WirelessNet.user.wlan[0].radio 	radioMode:count 	22
+attr interpolationmode  sample-hold
+attr source  radioModeChanged
+attr title  "Radio mode, count"
+statistic WirelessNet.user.wlan[0].radio 	symbolErrorRate:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min -nan
+field max -nan
+attr source  symbolErrorRate
+attr title  "Symbol error rate, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+statistic WirelessNet.user.wlan[0].radio 	bitErrorRate:histogram
+field count 0
+field mean -nan
+field stddev -nan
+field sum 0
+field sqrsum 0
+field min -nan
+field max -nan
+attr source  bitErrorRate
+attr title  "Bit error rate, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	0
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+statistic WirelessNet.user.wlan[0].radio 	packetErrorRate:histogram
+field count 4626
+field mean 0
+field stddev 0
+field sum 0
+field sqrsum 0
+field min 0
+field max 0
+attr source  packetErrorRate
+attr title  "Packet error rate, histogram"
+bin	-INF	0
+bin	-0.5	0
+bin	-0.46666666666667	0
+bin	-0.43333333333333	0
+bin	-0.4	0
+bin	-0.36666666666667	0
+bin	-0.33333333333333	0
+bin	-0.3	0
+bin	-0.26666666666667	0
+bin	-0.23333333333333	0
+bin	-0.2	0
+bin	-0.16666666666667	0
+bin	-0.13333333333333	0
+bin	-0.1	0
+bin	-0.066666666666667	0
+bin	-0.033333333333333	0
+bin	0	4626
+bin	0.033333333333333	0
+bin	0.066666666666667	0
+bin	0.1	0
+bin	0.13333333333333	0
+bin	0.16666666666667	0
+bin	0.2	0
+bin	0.23333333333333	0
+bin	0.26666666666667	0
+bin	0.3	0
+bin	0.33333333333333	0
+bin	0.36666666666667	0
+bin	0.4	0
+bin	0.43333333333333	0
+bin	0.46666666666667	0
+bin	0.5	0
+statistic WirelessNet.user.wlan[0].radio 	minSNIR:histogram
+field count 4626
+field mean 2612.68184191
+field stddev 139.39638858342
+field sum 12086266.200676
+field sqrsum 31667438247.314
+field min 2473.3617577729
+field max 2803.2803485928
+attr source  minSNIR
+attr title  "Min SNIR, histogram"
+bin	-INF	0
+bin	2308.402462363	0
+bin	2330.3970350843	0
+bin	2352.3916078056	0
+bin	2374.386180527	0
+bin	2396.3807532483	0
+bin	2418.3753259696	0
+bin	2440.3698986909	0
+bin	2462.3644714123	1540
+bin	2484.3590441336	0
+bin	2506.3536168549	0
+bin	2528.3481895763	0
+bin	2550.3427622976	1546
+bin	2572.3373350189	0
+bin	2594.3319077402	0
+bin	2616.3264804616	0
+bin	2638.3210531829	0
+bin	2660.3156259042	0
+bin	2682.3101986255	0
+bin	2704.3047713469	0
+bin	2726.2993440682	0
+bin	2748.2939167895	0
+bin	2770.2884895108	0
+bin	2792.2830622322	1540
+bin	2814.2776349535	0
+bin	2836.2722076748	0
+bin	2858.2667803962	0
+bin	2880.2613531175	0
+bin	2902.2559258388	0
+bin	2924.2504985601	0
+bin	2946.2450712815	0
+bin	2968.2396440028	0
+scalar WirelessNet.routerD.networkLayer.arp 	failedARPResolution:count 	0
+attr title  "ARP failed resolutions, count"
+scalar WirelessNet.routerD.networkLayer.arp 	completedARPResolution:count 	0
+attr title  "ARP completed resolutions, count"
+scalar WirelessNet.routerD.networkLayer.arp 	initiatedARPResolution:count 	0
+attr title  "ARP initiated resolutions, count"
+scalar WirelessNet.routerD.networkLayer.arp 	sentReply:count 	0
+attr title  "ARP replies sent, count"
+scalar WirelessNet.routerD.networkLayer.arp 	sentReq:count 	0
+attr title  "ARP request sent, count"
+scalar WirelessNet.routerD.lo0.lo 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar WirelessNet.routerD.lo0.lo 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar WirelessNet.routerD.lo0.lo 	rcvdPkFromHL:count 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar WirelessNet.routerD.lo0.lo 	rcvdPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar WirelessNet.routerD.lo0.lo 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar WirelessNet.routerD.lo0.lo 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[0].mac 	"simulated time" 	153.90571729757
+scalar WirelessNet.routerD.eth[0].mac 	full-duplex 	1
+scalar WirelessNet.routerD.eth[0].mac 	"frames/sec sent" 	0
+scalar WirelessNet.routerD.eth[0].mac 	"frames/sec rcvd" 	0
+scalar WirelessNet.routerD.eth[0].mac 	"bits/sec sent" 	0
+scalar WirelessNet.routerD.eth[0].mac 	"bits/sec rcvd" 	0
+scalar WirelessNet.routerD.eth[0].mac 	"rx channel idle (%)" 	100
+scalar WirelessNet.routerD.eth[0].mac 	"rx channel utilization (%)" 	0
+scalar WirelessNet.routerD.eth[0].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar WirelessNet.routerD.eth[0].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[0].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar WirelessNet.routerD.eth[0].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[0].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar WirelessNet.routerD.eth[0].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[0].mac 	rxPkFromHL:count 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar WirelessNet.routerD.eth[0].mac 	rxPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[0].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar WirelessNet.routerD.eth[0].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar WirelessNet.routerD.eth[0].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar WirelessNet.routerD.eth[0].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar WirelessNet.routerD.eth[0].mac 	rxPkOk:count 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar WirelessNet.routerD.eth[0].mac 	rxPkOk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[0].mac 	txPk:count 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar WirelessNet.routerD.eth[0].mac 	txPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[0].mac 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar WirelessNet.routerD.eth[0].mac 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[0].encap 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar WirelessNet.routerD.eth[0].encap 	pauseSent:sum 	0
+attr title  "pause sent, sum"
+scalar WirelessNet.routerD.eth[0].encap 	decapPk:count 	0
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar WirelessNet.routerD.eth[0].encap 	decapPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[0].encap 	encapPk:count 	0
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar WirelessNet.routerD.eth[0].encap 	encapPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[1].mac 	"simulated time" 	153.90571729757
+scalar WirelessNet.routerD.eth[1].mac 	full-duplex 	1
+scalar WirelessNet.routerD.eth[1].mac 	"frames/sec sent" 	0
+scalar WirelessNet.routerD.eth[1].mac 	"frames/sec rcvd" 	0
+scalar WirelessNet.routerD.eth[1].mac 	"bits/sec sent" 	0
+scalar WirelessNet.routerD.eth[1].mac 	"bits/sec rcvd" 	0
+scalar WirelessNet.routerD.eth[1].mac 	"rx channel idle (%)" 	100
+scalar WirelessNet.routerD.eth[1].mac 	"rx channel utilization (%)" 	0
+scalar WirelessNet.routerD.eth[1].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar WirelessNet.routerD.eth[1].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[1].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar WirelessNet.routerD.eth[1].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[1].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar WirelessNet.routerD.eth[1].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[1].mac 	rxPkFromHL:count 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar WirelessNet.routerD.eth[1].mac 	rxPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[1].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar WirelessNet.routerD.eth[1].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar WirelessNet.routerD.eth[1].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar WirelessNet.routerD.eth[1].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar WirelessNet.routerD.eth[1].mac 	rxPkOk:count 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar WirelessNet.routerD.eth[1].mac 	rxPkOk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[1].mac 	txPk:count 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar WirelessNet.routerD.eth[1].mac 	txPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[1].mac 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar WirelessNet.routerD.eth[1].mac 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[1].encap 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar WirelessNet.routerD.eth[1].encap 	pauseSent:sum 	0
+attr title  "pause sent, sum"
+scalar WirelessNet.routerD.eth[1].encap 	decapPk:count 	0
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar WirelessNet.routerD.eth[1].encap 	decapPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[1].encap 	encapPk:count 	0
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar WirelessNet.routerD.eth[1].encap 	encapPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[2].mac 	"simulated time" 	153.90571729757
+scalar WirelessNet.routerD.eth[2].mac 	full-duplex 	1
+scalar WirelessNet.routerD.eth[2].mac 	"frames/sec sent" 	0
+scalar WirelessNet.routerD.eth[2].mac 	"frames/sec rcvd" 	0
+scalar WirelessNet.routerD.eth[2].mac 	"bits/sec sent" 	0
+scalar WirelessNet.routerD.eth[2].mac 	"bits/sec rcvd" 	0
+scalar WirelessNet.routerD.eth[2].mac 	"rx channel idle (%)" 	100
+scalar WirelessNet.routerD.eth[2].mac 	"rx channel utilization (%)" 	0
+scalar WirelessNet.routerD.eth[2].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar WirelessNet.routerD.eth[2].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[2].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar WirelessNet.routerD.eth[2].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[2].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar WirelessNet.routerD.eth[2].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[2].mac 	rxPkFromHL:count 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar WirelessNet.routerD.eth[2].mac 	rxPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[2].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar WirelessNet.routerD.eth[2].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar WirelessNet.routerD.eth[2].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar WirelessNet.routerD.eth[2].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar WirelessNet.routerD.eth[2].mac 	rxPkOk:count 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar WirelessNet.routerD.eth[2].mac 	rxPkOk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[2].mac 	txPk:count 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar WirelessNet.routerD.eth[2].mac 	txPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[2].mac 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar WirelessNet.routerD.eth[2].mac 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[2].encap 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar WirelessNet.routerD.eth[2].encap 	pauseSent:sum 	0
+attr title  "pause sent, sum"
+scalar WirelessNet.routerD.eth[2].encap 	decapPk:count 	0
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar WirelessNet.routerD.eth[2].encap 	decapPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[2].encap 	encapPk:count 	0
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar WirelessNet.routerD.eth[2].encap 	encapPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[3].mac 	"simulated time" 	153.90571729757
+scalar WirelessNet.routerD.eth[3].mac 	full-duplex 	1
+scalar WirelessNet.routerD.eth[3].mac 	"frames/sec sent" 	0
+scalar WirelessNet.routerD.eth[3].mac 	"frames/sec rcvd" 	0
+scalar WirelessNet.routerD.eth[3].mac 	"bits/sec sent" 	0
+scalar WirelessNet.routerD.eth[3].mac 	"bits/sec rcvd" 	0
+scalar WirelessNet.routerD.eth[3].mac 	"rx channel idle (%)" 	100
+scalar WirelessNet.routerD.eth[3].mac 	"rx channel utilization (%)" 	0
+scalar WirelessNet.routerD.eth[3].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar WirelessNet.routerD.eth[3].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[3].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar WirelessNet.routerD.eth[3].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[3].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar WirelessNet.routerD.eth[3].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[3].mac 	rxPkFromHL:count 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar WirelessNet.routerD.eth[3].mac 	rxPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[3].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar WirelessNet.routerD.eth[3].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar WirelessNet.routerD.eth[3].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar WirelessNet.routerD.eth[3].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar WirelessNet.routerD.eth[3].mac 	rxPkOk:count 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar WirelessNet.routerD.eth[3].mac 	rxPkOk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[3].mac 	txPk:count 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar WirelessNet.routerD.eth[3].mac 	txPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[3].mac 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar WirelessNet.routerD.eth[3].mac 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[3].encap 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar WirelessNet.routerD.eth[3].encap 	pauseSent:sum 	0
+attr title  "pause sent, sum"
+scalar WirelessNet.routerD.eth[3].encap 	decapPk:count 	0
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar WirelessNet.routerD.eth[3].encap 	decapPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[3].encap 	encapPk:count 	0
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar WirelessNet.routerD.eth[3].encap 	encapPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[4].mac 	"simulated time" 	153.90571729757
+scalar WirelessNet.routerD.eth[4].mac 	full-duplex 	1
+scalar WirelessNet.routerD.eth[4].mac 	"frames/sec sent" 	0
+scalar WirelessNet.routerD.eth[4].mac 	"frames/sec rcvd" 	0
+scalar WirelessNet.routerD.eth[4].mac 	"bits/sec sent" 	0
+scalar WirelessNet.routerD.eth[4].mac 	"bits/sec rcvd" 	0
+scalar WirelessNet.routerD.eth[4].mac 	"rx channel idle (%)" 	100
+scalar WirelessNet.routerD.eth[4].mac 	"rx channel utilization (%)" 	0
+scalar WirelessNet.routerD.eth[4].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar WirelessNet.routerD.eth[4].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[4].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar WirelessNet.routerD.eth[4].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[4].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar WirelessNet.routerD.eth[4].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[4].mac 	rxPkFromHL:count 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar WirelessNet.routerD.eth[4].mac 	rxPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[4].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar WirelessNet.routerD.eth[4].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar WirelessNet.routerD.eth[4].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar WirelessNet.routerD.eth[4].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar WirelessNet.routerD.eth[4].mac 	rxPkOk:count 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar WirelessNet.routerD.eth[4].mac 	rxPkOk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[4].mac 	txPk:count 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar WirelessNet.routerD.eth[4].mac 	txPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[4].mac 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar WirelessNet.routerD.eth[4].mac 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[4].encap 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar WirelessNet.routerD.eth[4].encap 	pauseSent:sum 	0
+attr title  "pause sent, sum"
+scalar WirelessNet.routerD.eth[4].encap 	decapPk:count 	0
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar WirelessNet.routerD.eth[4].encap 	decapPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[4].encap 	encapPk:count 	0
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar WirelessNet.routerD.eth[4].encap 	encapPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[5].mac 	"simulated time" 	153.90571729757
+scalar WirelessNet.routerD.eth[5].mac 	full-duplex 	1
+scalar WirelessNet.routerD.eth[5].mac 	"frames/sec sent" 	0
+scalar WirelessNet.routerD.eth[5].mac 	"frames/sec rcvd" 	0
+scalar WirelessNet.routerD.eth[5].mac 	"bits/sec sent" 	0
+scalar WirelessNet.routerD.eth[5].mac 	"bits/sec rcvd" 	0
+scalar WirelessNet.routerD.eth[5].mac 	"rx channel idle (%)" 	100
+scalar WirelessNet.routerD.eth[5].mac 	"rx channel utilization (%)" 	0
+scalar WirelessNet.routerD.eth[5].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar WirelessNet.routerD.eth[5].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[5].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar WirelessNet.routerD.eth[5].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[5].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar WirelessNet.routerD.eth[5].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[5].mac 	rxPkFromHL:count 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar WirelessNet.routerD.eth[5].mac 	rxPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[5].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar WirelessNet.routerD.eth[5].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar WirelessNet.routerD.eth[5].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar WirelessNet.routerD.eth[5].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar WirelessNet.routerD.eth[5].mac 	rxPkOk:count 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar WirelessNet.routerD.eth[5].mac 	rxPkOk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[5].mac 	txPk:count 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar WirelessNet.routerD.eth[5].mac 	txPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[5].mac 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar WirelessNet.routerD.eth[5].mac 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[5].encap 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar WirelessNet.routerD.eth[5].encap 	pauseSent:sum 	0
+attr title  "pause sent, sum"
+scalar WirelessNet.routerD.eth[5].encap 	decapPk:count 	0
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar WirelessNet.routerD.eth[5].encap 	decapPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar WirelessNet.routerD.eth[5].encap 	encapPk:count 	0
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar WirelessNet.routerD.eth[5].encap 	encapPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar WirelessNet.radioMedium.propagation 	"Arrival computation count" 	13911
+scalar WirelessNet.radioMedium 	"transmission count" 	4637
+scalar WirelessNet.radioMedium 	"radio frame send count" 	13911
+scalar WirelessNet.radioMedium 	"reception computation count" 	13911
+scalar WirelessNet.radioMedium 	"interference computation count" 	46368
+scalar WirelessNet.radioMedium 	"reception decision computation count" 	13908
+scalar WirelessNet.radioMedium 	"listening decision computation count" 	18549
+scalar WirelessNet.radioMedium 	"reception cache hit" 	85.712525034663
+attr unit  %
+scalar WirelessNet.radioMedium 	"interference cache hit" 	66.666666666667
+attr unit  %
+scalar WirelessNet.radioMedium 	"noise cache hit" 	0
+attr unit  %
+scalar WirelessNet.radioMedium 	"snir cache hit" 	50
+attr unit  %
+scalar WirelessNet.radioMedium 	"reception decision cache hit" 	50
+attr unit  %
+scalar WirelessNet.radioMedium 	"reception result cache hit" 	0
+attr unit  %
+scalar WirelessNet.router1.networkLayer.arp 	failedARPResolution:count 	0
+attr title  "ARP failed resolutions, count"
+scalar WirelessNet.router1.networkLayer.arp 	completedARPResolution:count 	0
+attr title  "ARP completed resolutions, count"
+scalar WirelessNet.router1.networkLayer.arp 	initiatedARPResolution:count 	0
+attr title  "ARP initiated resolutions, count"
+scalar WirelessNet.router1.networkLayer.arp 	sentReply:count 	0
+attr title  "ARP replies sent, count"
+scalar WirelessNet.router1.networkLayer.arp 	sentReq:count 	0
+attr title  "ARP request sent, count"
+scalar WirelessNet.router1.lo0.lo 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar WirelessNet.router1.lo0.lo 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar WirelessNet.router1.lo0.lo 	rcvdPkFromHL:count 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar WirelessNet.router1.lo0.lo 	rcvdPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar WirelessNet.router1.lo0.lo 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar WirelessNet.router1.lo0.lo 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar WirelessNet.router1.eth[0].mac 	"simulated time" 	153.90571729757
+scalar WirelessNet.router1.eth[0].mac 	full-duplex 	1
+scalar WirelessNet.router1.eth[0].mac 	"frames/sec sent" 	0
+scalar WirelessNet.router1.eth[0].mac 	"frames/sec rcvd" 	0
+scalar WirelessNet.router1.eth[0].mac 	"bits/sec sent" 	0
+scalar WirelessNet.router1.eth[0].mac 	"bits/sec rcvd" 	0
+scalar WirelessNet.router1.eth[0].mac 	"rx channel idle (%)" 	100
+scalar WirelessNet.router1.eth[0].mac 	"rx channel utilization (%)" 	0
+scalar WirelessNet.router1.eth[0].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar WirelessNet.router1.eth[0].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar WirelessNet.router1.eth[0].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar WirelessNet.router1.eth[0].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar WirelessNet.router1.eth[0].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar WirelessNet.router1.eth[0].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar WirelessNet.router1.eth[0].mac 	rxPkFromHL:count 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar WirelessNet.router1.eth[0].mac 	rxPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar WirelessNet.router1.eth[0].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar WirelessNet.router1.eth[0].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar WirelessNet.router1.eth[0].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar WirelessNet.router1.eth[0].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar WirelessNet.router1.eth[0].mac 	rxPkOk:count 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar WirelessNet.router1.eth[0].mac 	rxPkOk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar WirelessNet.router1.eth[0].mac 	txPk:count 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar WirelessNet.router1.eth[0].mac 	txPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar WirelessNet.router1.eth[0].mac 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar WirelessNet.router1.eth[0].mac 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar WirelessNet.router1.eth[0].encap 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar WirelessNet.router1.eth[0].encap 	pauseSent:sum 	0
+attr title  "pause sent, sum"
+scalar WirelessNet.router1.eth[0].encap 	decapPk:count 	0
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar WirelessNet.router1.eth[0].encap 	decapPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar WirelessNet.router1.eth[0].encap 	encapPk:count 	0
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar WirelessNet.router1.eth[0].encap 	encapPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar WirelessNet.router1.eth[1].mac 	"simulated time" 	153.90571729757
+scalar WirelessNet.router1.eth[1].mac 	full-duplex 	1
+scalar WirelessNet.router1.eth[1].mac 	"frames/sec sent" 	0
+scalar WirelessNet.router1.eth[1].mac 	"frames/sec rcvd" 	0
+scalar WirelessNet.router1.eth[1].mac 	"bits/sec sent" 	0
+scalar WirelessNet.router1.eth[1].mac 	"bits/sec rcvd" 	0
+scalar WirelessNet.router1.eth[1].mac 	"rx channel idle (%)" 	100
+scalar WirelessNet.router1.eth[1].mac 	"rx channel utilization (%)" 	0
+scalar WirelessNet.router1.eth[1].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar WirelessNet.router1.eth[1].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar WirelessNet.router1.eth[1].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar WirelessNet.router1.eth[1].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar WirelessNet.router1.eth[1].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar WirelessNet.router1.eth[1].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar WirelessNet.router1.eth[1].mac 	rxPkFromHL:count 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar WirelessNet.router1.eth[1].mac 	rxPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar WirelessNet.router1.eth[1].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar WirelessNet.router1.eth[1].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar WirelessNet.router1.eth[1].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar WirelessNet.router1.eth[1].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar WirelessNet.router1.eth[1].mac 	rxPkOk:count 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar WirelessNet.router1.eth[1].mac 	rxPkOk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar WirelessNet.router1.eth[1].mac 	txPk:count 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar WirelessNet.router1.eth[1].mac 	txPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar WirelessNet.router1.eth[1].mac 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar WirelessNet.router1.eth[1].mac 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar WirelessNet.router1.eth[1].encap 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar WirelessNet.router1.eth[1].encap 	pauseSent:sum 	0
+attr title  "pause sent, sum"
+scalar WirelessNet.router1.eth[1].encap 	decapPk:count 	0
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar WirelessNet.router1.eth[1].encap 	decapPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar WirelessNet.router1.eth[1].encap 	encapPk:count 	0
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar WirelessNet.router1.eth[1].encap 	encapPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar WirelessNet.router3.networkLayer.arp 	failedARPResolution:count 	0
+attr title  "ARP failed resolutions, count"
+scalar WirelessNet.router3.networkLayer.arp 	completedARPResolution:count 	0
+attr title  "ARP completed resolutions, count"
+scalar WirelessNet.router3.networkLayer.arp 	initiatedARPResolution:count 	0
+attr title  "ARP initiated resolutions, count"
+scalar WirelessNet.router3.networkLayer.arp 	sentReply:count 	0
+attr title  "ARP replies sent, count"
+scalar WirelessNet.router3.networkLayer.arp 	sentReq:count 	0
+attr title  "ARP request sent, count"
+scalar WirelessNet.router3.lo0.lo 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar WirelessNet.router3.lo0.lo 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar WirelessNet.router3.lo0.lo 	rcvdPkFromHL:count 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar WirelessNet.router3.lo0.lo 	rcvdPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar WirelessNet.router3.lo0.lo 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar WirelessNet.router3.lo0.lo 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar WirelessNet.router3.eth[0].mac 	"simulated time" 	153.90571729757
+scalar WirelessNet.router3.eth[0].mac 	full-duplex 	1
+scalar WirelessNet.router3.eth[0].mac 	"frames/sec sent" 	0
+scalar WirelessNet.router3.eth[0].mac 	"frames/sec rcvd" 	0
+scalar WirelessNet.router3.eth[0].mac 	"bits/sec sent" 	0
+scalar WirelessNet.router3.eth[0].mac 	"bits/sec rcvd" 	0
+scalar WirelessNet.router3.eth[0].mac 	"rx channel idle (%)" 	100
+scalar WirelessNet.router3.eth[0].mac 	"rx channel utilization (%)" 	0
+scalar WirelessNet.router3.eth[0].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar WirelessNet.router3.eth[0].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar WirelessNet.router3.eth[0].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar WirelessNet.router3.eth[0].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar WirelessNet.router3.eth[0].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar WirelessNet.router3.eth[0].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar WirelessNet.router3.eth[0].mac 	rxPkFromHL:count 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar WirelessNet.router3.eth[0].mac 	rxPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar WirelessNet.router3.eth[0].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar WirelessNet.router3.eth[0].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar WirelessNet.router3.eth[0].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar WirelessNet.router3.eth[0].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar WirelessNet.router3.eth[0].mac 	rxPkOk:count 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar WirelessNet.router3.eth[0].mac 	rxPkOk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar WirelessNet.router3.eth[0].mac 	txPk:count 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar WirelessNet.router3.eth[0].mac 	txPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar WirelessNet.router3.eth[0].mac 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar WirelessNet.router3.eth[0].mac 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar WirelessNet.router3.eth[0].encap 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar WirelessNet.router3.eth[0].encap 	pauseSent:sum 	0
+attr title  "pause sent, sum"
+scalar WirelessNet.router3.eth[0].encap 	decapPk:count 	0
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar WirelessNet.router3.eth[0].encap 	decapPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar WirelessNet.router3.eth[0].encap 	encapPk:count 	0
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar WirelessNet.router3.eth[0].encap 	encapPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar WirelessNet.router3.eth[1].mac 	"simulated time" 	153.90571729757
+scalar WirelessNet.router3.eth[1].mac 	full-duplex 	1
+scalar WirelessNet.router3.eth[1].mac 	"frames/sec sent" 	0
+scalar WirelessNet.router3.eth[1].mac 	"frames/sec rcvd" 	0
+scalar WirelessNet.router3.eth[1].mac 	"bits/sec sent" 	0
+scalar WirelessNet.router3.eth[1].mac 	"bits/sec rcvd" 	0
+scalar WirelessNet.router3.eth[1].mac 	"rx channel idle (%)" 	100
+scalar WirelessNet.router3.eth[1].mac 	"rx channel utilization (%)" 	0
+scalar WirelessNet.router3.eth[1].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar WirelessNet.router3.eth[1].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar WirelessNet.router3.eth[1].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar WirelessNet.router3.eth[1].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar WirelessNet.router3.eth[1].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar WirelessNet.router3.eth[1].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar WirelessNet.router3.eth[1].mac 	rxPkFromHL:count 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar WirelessNet.router3.eth[1].mac 	rxPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar WirelessNet.router3.eth[1].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar WirelessNet.router3.eth[1].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar WirelessNet.router3.eth[1].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar WirelessNet.router3.eth[1].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar WirelessNet.router3.eth[1].mac 	rxPkOk:count 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar WirelessNet.router3.eth[1].mac 	rxPkOk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar WirelessNet.router3.eth[1].mac 	txPk:count 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar WirelessNet.router3.eth[1].mac 	txPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar WirelessNet.router3.eth[1].mac 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar WirelessNet.router3.eth[1].mac 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar WirelessNet.router3.eth[1].encap 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar WirelessNet.router3.eth[1].encap 	pauseSent:sum 	0
+attr title  "pause sent, sum"
+scalar WirelessNet.router3.eth[1].encap 	decapPk:count 	0
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar WirelessNet.router3.eth[1].encap 	decapPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar WirelessNet.router3.eth[1].encap 	encapPk:count 	0
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar WirelessNet.router3.eth[1].encap 	encapPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar WirelessNet.router5.networkLayer.arp 	failedARPResolution:count 	0
+attr title  "ARP failed resolutions, count"
+scalar WirelessNet.router5.networkLayer.arp 	completedARPResolution:count 	0
+attr title  "ARP completed resolutions, count"
+scalar WirelessNet.router5.networkLayer.arp 	initiatedARPResolution:count 	0
+attr title  "ARP initiated resolutions, count"
+scalar WirelessNet.router5.networkLayer.arp 	sentReply:count 	0
+attr title  "ARP replies sent, count"
+scalar WirelessNet.router5.networkLayer.arp 	sentReq:count 	0
+attr title  "ARP request sent, count"
+scalar WirelessNet.router5.lo0.lo 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar WirelessNet.router5.lo0.lo 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar WirelessNet.router5.lo0.lo 	rcvdPkFromHL:count 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, count"
+scalar WirelessNet.router5.lo0.lo 	rcvdPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetReceivedFromUpper
+attr title  "packets received from higher layer, sum(packetBytes)"
+scalar WirelessNet.router5.lo0.lo 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar WirelessNet.router5.lo0.lo 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar WirelessNet.router5.eth[0].mac 	"simulated time" 	153.90571729757
+scalar WirelessNet.router5.eth[0].mac 	full-duplex 	1
+scalar WirelessNet.router5.eth[0].mac 	"frames/sec sent" 	0
+scalar WirelessNet.router5.eth[0].mac 	"frames/sec rcvd" 	0
+scalar WirelessNet.router5.eth[0].mac 	"bits/sec sent" 	0
+scalar WirelessNet.router5.eth[0].mac 	"bits/sec rcvd" 	0
+scalar WirelessNet.router5.eth[0].mac 	"rx channel idle (%)" 	100
+scalar WirelessNet.router5.eth[0].mac 	"rx channel utilization (%)" 	0
+scalar WirelessNet.router5.eth[0].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar WirelessNet.router5.eth[0].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar WirelessNet.router5.eth[0].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar WirelessNet.router5.eth[0].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar WirelessNet.router5.eth[0].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar WirelessNet.router5.eth[0].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar WirelessNet.router5.eth[0].mac 	rxPkFromHL:count 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar WirelessNet.router5.eth[0].mac 	rxPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar WirelessNet.router5.eth[0].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar WirelessNet.router5.eth[0].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar WirelessNet.router5.eth[0].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar WirelessNet.router5.eth[0].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar WirelessNet.router5.eth[0].mac 	rxPkOk:count 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar WirelessNet.router5.eth[0].mac 	rxPkOk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar WirelessNet.router5.eth[0].mac 	txPk:count 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar WirelessNet.router5.eth[0].mac 	txPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar WirelessNet.router5.eth[0].mac 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar WirelessNet.router5.eth[0].mac 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar WirelessNet.router5.eth[0].encap 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar WirelessNet.router5.eth[0].encap 	pauseSent:sum 	0
+attr title  "pause sent, sum"
+scalar WirelessNet.router5.eth[0].encap 	decapPk:count 	0
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar WirelessNet.router5.eth[0].encap 	decapPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar WirelessNet.router5.eth[0].encap 	encapPk:count 	0
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar WirelessNet.router5.eth[0].encap 	encapPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
+scalar WirelessNet.router5.eth[1].mac 	"simulated time" 	153.90571729757
+scalar WirelessNet.router5.eth[1].mac 	full-duplex 	1
+scalar WirelessNet.router5.eth[1].mac 	"frames/sec sent" 	0
+scalar WirelessNet.router5.eth[1].mac 	"frames/sec rcvd" 	0
+scalar WirelessNet.router5.eth[1].mac 	"bits/sec sent" 	0
+scalar WirelessNet.router5.eth[1].mac 	"bits/sec rcvd" 	0
+scalar WirelessNet.router5.eth[1].mac 	"rx channel idle (%)" 	100
+scalar WirelessNet.router5.eth[1].mac 	"rx channel utilization (%)" 	0
+scalar WirelessNet.router5.eth[1].mac 	droppedPkNotForUs:count 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, count"
+scalar WirelessNet.router5.eth[1].mac 	droppedPkNotForUs:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkNotForUs
+attr title  "packets dropped/not for us, sum(packetBytes)"
+scalar WirelessNet.router5.eth[1].mac 	droppedPkIfaceDown:count 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, count"
+scalar WirelessNet.router5.eth[1].mac 	droppedPkIfaceDown:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkIfaceDown
+attr title  "packets dropped/interface down, sum(packetBytes)"
+scalar WirelessNet.router5.eth[1].mac 	droppedPkBitError:count 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, count"
+scalar WirelessNet.router5.eth[1].mac 	droppedPkBitError:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  dropPkBitError
+attr title  "packets dropped/bit error, sum(packetBytes)"
+scalar WirelessNet.router5.eth[1].mac 	rxPkFromHL:count 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, count"
+scalar WirelessNet.router5.eth[1].mac 	rxPkFromHL:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, sum(packetBytes)"
+scalar WirelessNet.router5.eth[1].mac 	rxPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units received, count"
+scalar WirelessNet.router5.eth[1].mac 	rxPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units received, sum"
+scalar WirelessNet.router5.eth[1].mac 	txPausePkUnits:count 	0
+attr interpolationmode  none
+attr title  "pause units sent, count"
+scalar WirelessNet.router5.eth[1].mac 	txPausePkUnits:sum 	0
+attr interpolationmode  none
+attr title  "pause units sent, sum"
+scalar WirelessNet.router5.eth[1].mac 	rxPkOk:count 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, count"
+scalar WirelessNet.router5.eth[1].mac 	rxPkOk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, sum(packetBytes)"
+scalar WirelessNet.router5.eth[1].mac 	txPk:count 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, count"
+scalar WirelessNet.router5.eth[1].mac 	txPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, sum(packetBytes)"
+scalar WirelessNet.router5.eth[1].mac 	passedUpPk:count 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, count"
+scalar WirelessNet.router5.eth[1].mac 	passedUpPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, sum(packetBytes)"
+scalar WirelessNet.router5.eth[1].encap 	pauseSent:count 	0
+attr title  "pause sent, count"
+scalar WirelessNet.router5.eth[1].encap 	pauseSent:sum 	0
+attr title  "pause sent, sum"
+scalar WirelessNet.router5.eth[1].encap 	decapPk:count 	0
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, count"
+scalar WirelessNet.router5.eth[1].encap 	decapPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, sum(packetBytes)"
+scalar WirelessNet.router5.eth[1].encap 	encapPk:count 	0
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, count"
+scalar WirelessNet.router5.eth[1].encap 	encapPk:sum(packetBytes) 	0
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, sum(packetBytes)"
